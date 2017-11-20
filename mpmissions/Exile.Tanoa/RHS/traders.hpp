@@ -31,21 +31,22 @@
 			"rhsgref_uniform_ttsko_urban",
 			"rhsgref_uniform_vsr",
 			"rhsgref_uniform_woodland",
-			"rhsgref_uniform_woodland_olive",
-			"rhs_6sh92_headset",
+			"rhsgref_uniform_woodland_olive"
+		};
+	};
+
+	class RHSVests
+	{
+		name = "RHSVests";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\uniform_ca.paa";
+		items[] = 
+		{
+ 			"rhs_6sh92_headset",
 			"rhs_6sh92_radio",
 			"rhs_6sh92_vog",
 			"rhs_6sh92_vog_headset",
 			"rhs_vydra_3m",
 			"rhs_6sh92_digi",
-			"rhs_6b13_6sh92_vog",
-			"rhs_6b13_6sh92_radio",
-			"rhs_6b23_digi_6sh92_vog_headset",
-			"rhs_6b13_Flora",
-			"rhs_6b13_Flora_6sh92",
-			"rhs_6b13_Flora_6sh92_headset_mapcase",
-			"rhs_6b13_Flora_6sh92_vog",
-			"rhs_6b13_Flora_crewofficer",
 			"rhs_6b23",
 			"rhs_6b23_6sh92",
 			"rhs_6b23_6sh92_headset",
@@ -69,7 +70,6 @@
 			"rhs_6b23_ML_engineer",
 			"rhs_6b23_ML_rifleman",
 			"rhs_6b23_ML_sniper",
-			"rhs_6sh46",
 			"rhsusf_iotv_ocp",
 			"rhsusf_iotv_ucp",
 			"rhsusf_iotv_ocp_Medic",
@@ -106,7 +106,16 @@
 			"rhsgref_6b23_ttsko_mountain_nco",
 			"rhsgref_6b23_ttsko_mountain_officer",
 			"rhsgref_6b23_ttsko_mountain_rifleman",
-			"rhsgref_6b23_ttsko_mountain_sniper",
+			"rhsgref_6b23_ttsko_mountain_sniper"
+		};
+	};
+
+	class RHSHeadgear
+	{
+		name = "RHS Headgear";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\uniform_ca.paa";
+		items[] = 
+		{
 			"rhsgref_otv_digi",
 			"rhsgref_otv_khaki",
 			"rhs_6b27m_digi",
@@ -142,59 +151,23 @@
 		};
 	};
 
-	class RHSWeapons 
+	class RHSPistols 
 	{
-		name = "RHSWeapons";
+		name = "RHS Pistols";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[] = 
 		{
-			"rhsusf_acc_anpeq15side",
-			"rhsusf_acc_anpeq15",
-			"rhsusf_acc_anpeq15A",
-			"rhsusf_acc_anpeq15_light",
-			"rhsusf_acc_harris_bipod",
-			"rhsusf_acc_rotex5_grey",
-			"rhsusf_acc_rotex5_tan",
-			"rhsusf_acc_nt4_black",
-			"rhsusf_acc_nt4_tan",
-			"rhsusf_acc_SF3P556",
-			"rhsusf_acc_SFMB556",
-			"rhsusf_acc_SR25S",
-			"rhsusf_acc_M2010S",
-			"rhs_acc_dtk4short",
-			"rhs_acc_dtk4long",
-			"rhs_acc_dtk4screws",
-			"rhs_acc_tgpa",
-			"rhs_acc_pbs1",
-			"rhs_acc_dtk3",
-			"rhs_acc_dtk1",
-			"rhs_acc_dtk",
-			"rhs_acc_dtk1l",
-			"rhs_acc_ak5",
-			"rhsusf_acc_eotech_552",
-			"rhsusf_acc_LEUPOLDMK4",
-			"rhsusf_acc_ELCAN",
-			"rhsusf_acc_ELCAN_pip",
-			"rhsusf_acc_ACOG",
-			"rhsusf_acc_ACOG_pip",
-			"rhs_acc_1pn93_2",
-			"rhsusf_acc_ACOG2",
-			"rhsusf_acc_ACOG_USMC",
-			"rhsusf_acc_ACOG2_USMC",
-			"rhsusf_acc_ACOG3_USMC",
-			"rhsusf_acc_LEUPOLDMK4_2",
-			"rhsusf_acc_EOTECH",
-			"rhs_acc_1p29",
-			"rhs_acc_1p78",
-			"rhs_acc_pkas",
-			"rhs_acc_1p63",
-			"rhs_acc_ekp1",
-			"rhs_acc_pso1m2",
-			"rhs_acc_pgo7v",
-			"rhs_acc_1pn93_1",
-			"rhs_weap_pya",
 			"rhs_weap_makarov_pmm",
-			"rhsusf_weap_m1911a1",
+			"rhsusf_weap_m1911a1"
+		};
+	};
+
+	class RHSLightMachineGuns 
+	{
+		name = "RHS Light Machine Guns";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] = 
+		{
 			"rhs_weap_m249_pip_L",
 			"rhs_weap_m249_pip_L_para",
 			"rhs_weap_m249_pip_L_vfg",
@@ -205,7 +178,16 @@
 			"rhs_weap_m240B_CAP",
 			"rhs_weap_m240G",
 			"rhs_weap_pkm",
-			"rhs_weap_pkp",
+			"rhs_weap_pkp"
+		};
+	};
+
+	class RHSAssaultRifles 
+	{
+		name = "RHS Assault Rifles";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] = 
+		{
 			"rhs_weap_m16a4",
 			"rhs_weap_m16a4_carryhandle",
 			"rhs_weap_m16a4_carryhandle_grip",
@@ -277,7 +259,16 @@
 			"rhs_weap_m92_fold",
 			"rhs_weap_m38",
 			"rhs_weap_sr25",
-			"rhs_weap_sr25_ec",
+			"rhs_weap_sr25_ec"
+		};
+	};
+	
+	class RHSSniperRifles 
+	{
+		name = "RHS Sniper Rifles";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] = 
+		{
 			"rhs_weap_m14ebrri",
 			"rhs_weap_XM2010",
 			"rhs_weap_XM2010_wd",
@@ -288,7 +279,16 @@
 			"rhs_weap_svdp_wd_npz",
 			"rhs_weap_svdp_npz",
 			"rhs_weap_svds",
-			"rhs_weap_svds_npz",
+			"rhs_weap_svds_npz"
+		};
+	};
+
+	class RHSAmmo 
+	{
+		name = "RHS Ammo";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[] = 
+		{
 			"rhsusf_mag_7x45acp_MHP",
 			"rhs_mag_9x18_12_57N181S",
 			"rhs_mag_9x19_17",
@@ -341,7 +341,46 @@
 	
 	class RHSCars
 	{
-		name = "RHS Vehicles";
+		name = "RHS Cars";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[]=
+		{
+			"rhsusf_m1025_w",
+			"rhsusf_m998_w_2dr",
+			"rhsusf_m998_w_4dr",
+			"rhsusf_m998_w_s_2dr_fulltop",
+			"rhsusf_m998_d_s_2dr_fulltop",
+			"rhsusf_m998_w_s_2dr_halftop",
+			"rhsusf_m998_d_s_2dr_halftop",
+			"rhsusf_m998_d_s_4dr_fulltop",
+			"rhsusf_m998_w_s_4dr_fulltop",
+			"rhsusf_m998_d_s_4dr_halftop",
+			"rhsusf_m998_w_s_4dr_halftop",
+			"RHS_UAZ_MSV_01",
+			"rhsgref_BRDM2"
+
+		};
+	};
+
+	class RHSCarsArmed
+	{
+		name = "RHS Cars Armed";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[]=
+		{
+			"rhsgref_cdf_reg_uaz_ags",
+			"rhsgref_cdf_reg_uaz_dshkm",
+			"rhsgref_cdf_reg_uaz_spg9",
+			"rhsusf_m1025_w_m2",
+			"rhsgref_un_m1117",
+			"rhsgref_BRDM2_ATGM",
+			"rhsgref_BRDM2UM"
+		};
+	};
+
+	class RHSTrucks
+	{
+		name = "RHS Trucks";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[]=
 		{
@@ -356,18 +395,6 @@
 			"rhs_gaz66o_vdv",
 			"rhs_gaz66o_flat_vdv",
 			"rhs_gaz66_ammo_vmf",
-			"rhsusf_m1025_w",
-			"rhsusf_m1025_w_m2",
-			"rhsusf_m998_w_2dr",
-			"rhsusf_m998_w_4dr",
-			"rhsusf_m998_w_s_2dr_fulltop",
-			"rhsusf_m998_d_s_2dr_fulltop",
-			"rhsusf_m998_w_s_2dr_halftop",
-			"rhsusf_m998_d_s_2dr_halftop",
-			"rhsusf_m998_d_s_4dr_fulltop",
-			"rhsusf_m998_w_s_4dr_fulltop",
-			"rhsusf_m998_d_s_4dr_halftop",
-			"rhsusf_m998_w_s_4dr_halftop",
 			"rhsusf_M1078A1P2_wd_fmtv_usarmy",
 			"rhsusf_M1078A1P2_d_fmtv_usarmy",
 			"rhsusf_M1078A1P2_wd_open_fmtv_usarmy",
@@ -382,53 +409,116 @@
 			"rhsusf_M1078A1P2_B_d_flatbed_fmtv_usarmy",
 			"rhsusf_rg33_d",
 			"rhsusf_rg33_usmc_d",
-			"RHS_UAZ_MSV_01",
-			"rhs_uaz_open_MSV_01",
-			"rhs_uaz_vdv",
 			"RHS_Ural_Open_Civ_01",
 			"RHS_Ural_Open_Civ_02",
 			"RHS_Ural_Open_Civ_03",
 			"RHS_Ural_MSV_01",
 			"RHS_Ural_Fuel_MSV_01",
 			"RHS_Ural_Open_MSV_01",
-			"rhs_Ural_Flat_MSV_01",
-			"rhsgref_BRDM2",
-			"rhsgref_BRDM2_ATGM",
-			"rhsgref_BRDM2UM",
-			"rhsgref_un_m1117",
-			"rhsgref_BRDM2",
-			"rhsgref_BRDM2_ATGM",
-			"rhsgref_BRDM2UM",
-			"rhsgref_un_m1117",
-			"rhsgref_cdf_reg_uaz_ags",
-			"rhsgref_cdf_reg_uaz_dshkm",
-			"rhsgref_cdf_reg_uaz_spg9"
+			"rhs_Ural_Flat_MSV_01"
+
+		};
+	};
+
+	class RHSTrucksArmed
+	{
+		name = "RHS Trucks Armed";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[]=
+		{
+
 		};
 	};
 	
-	class RHSAircraft
+	class RHSTracked
 	{
-		name = "RHSAircraft";
+		name = "RHS Tracked";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[]=
+		{
+			"rhsusf_m113d_usarmy_supply",	
+			"rhsusf_m113d_usarmy_unarmed",	
+			"rhsusf_m113d_usarmy_medical"
+		};
+	};
+
+	class RHSTrackedArmed
+	{
+		name = "RHS Tracked Armed";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[]=
+		{
+			"RHS_M2A3_BUSKIII",
+			"RHS_M2A3_BUSKI_wd",
+			"RHS_M6_wd",
+			"rhsusf_m109d_usarmy",
+			"rhsusf_m113d_usarmy",	
+			"rhsusf_m113d_usarmy_M240",	
+			"rhsusf_m113d_usarmy_MK19",
+			"rhsusf_m1a1aimwd_usarmy",
+			"rhsusf_m1a1fep_od"
+		};
+	};
+	
+	class RHSPlans
+	{
+		name = "RHS Plans";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[]=
+		{
+			"RHS_C130J",			
+			"RHS_AN2"
+		};
+	};
+	
+	class RHSPlansArmed
+	{
+		name = "RHS Plans Armed";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[]=
+		{			
+			"rhs_l159_CDF_CAP",
+			"rhs_l159_CDF_CAS",
+			"rhs_l159_CDF_plamen",
+			"rhs_l159_CDF",
+			"rhs_l39_cdf",
+			"RHS_A10"
+		};
+	};
+	
+	class RHSChoppers
+	{
+		name = "RHS Choppers";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
+		items[]=
+		{
+			"rhs_ka60_c",
+			"rhs_ka60_grey",
+			"B_Heli_Transport_01_F",
+			"rhs_UH60M_MEV2_d",
+			"rhs_Mi8mt_vvs",
+			"rhs_Mi8mt_cargo_vvs",
+			"rhs_UH1Y_unarmed"
+		};
+	};
+	
+	class RHSChoppersArmed
+	{
+		name = "RHS Choppers Armed";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\itemacc_ca.paa";
 		items[]=
 		{			
 			"RHS_CH_47F",
 			"rhs_CH_47F_10",
-			"rhs_ka60_c",
-			"rhs_ka60_grey",
-			"B_Heli_Transport_01_F",
 			"RHS_UH60M",
-			"rhs_UH60M_MEV2_d",
-			"rhs_Mi8mt_vvs",
-			"rhs_Mi8mt_cargo_vvs",
-			"rhs_UH1Y_unarmed",			
 			"rhsgref_mi24g_CAS",
-			"RHS_C130J",			
-			"RHS_AN2",
-			"rhs_l159_CDF_CAP",
-			"rhs_l159_CDF_CAS",
-			"rhs_l159_CDF_plamen",
-			"rhs_l159_CDF",
-			"rhs_l39_cdf"
+			"RHS_AH64D_GS",
+			"RHS_AH64D_CS",
+			"RHS_AH64D_wd",
+			"RHS_AH64D_AA",
+			"RHS_AH64DGrey",
+			"RHS_AH1Z_GS",
+			"RHS_AH1Z_CS",
+			"RHS_AH1Z_wd"
 		};
 	};

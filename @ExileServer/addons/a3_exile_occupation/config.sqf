@@ -25,7 +25,7 @@ SC_mapMarkers					= false;                	// Place map markers at the occupied 
 SC_minFPS						= 10;				    	// any lower than minFPS on the server and additional AI won't spawn
 SC_scaleAI						= 10;						// any more than _scaleAI players on the server and _maxAIcount is reduced for each extra player
 
-SC_minDistanceToSpawnZones  	= 200;                  	// Minimum distance in metres to the nearest spawn zone
+SC_minDistanceToSpawnZones  	= 100;                  	// Minimum distance in metres to the nearest spawn zone
 SC_minDistanceToTraders     	= 750;                  	// Minimum distance in metres to the nearest trader zone
 SC_minDistanceToTerritory   	= 150;                  	// Minimum distance in metres to the nearest player territory
 SC_minDistanceToPlayer      	= 250;                  	// Minimum distance in metres to the nearest player
@@ -43,7 +43,7 @@ SC_occupyTraders            	= false;						// true if you want to create trader 
 SC_occupyStatic	 		    	= false;		    		// true if you want to add AI in specific locations
 SC_occupyTransport 	        	= true;						// true if you want pubic transport (travels between traders)
 SC_occupyLootCrates		    	= true;						// true if you want to have random loot crates with guards
-SC_occupyRandomSpawn        	= false;                		// (WORK IN PROGRESS) true if you want random spawning AI that hunt for nearby players
+SC_occupyRandomSpawn        	= true;                		// (WORK IN PROGRESS) true if you want random spawning AI that hunt for nearby players
 SC_occupyMilitary 		    	= true;			    	// true if you want military buildings patrolled
 SC_occupyVehicle				= true;						// true if you want to have roaming AI land vehicles
 SC_occupySky					= true;						// true if you want to have roaming AI helis
@@ -71,7 +71,7 @@ SC_randomSpawnChance			= 12;						// Percentage chance of spawning if suitable p
 SC_randomSpawnIgnoreCount		= true;						// true if you want spawn random AI groups regardless of overall AI count (they still count towards the total though)
 SC_randomSpawnFrequency			= 3600;						// time in seconds between the possibility of random AI hunting the same player (1800 for 30 minutes)
 SC_randomSpawnNearBases			= true;						// true if you want to allow random spawns in range of territories
-SC_randomSpawnNearSpawns		= false;					// true if you want to allow random spawns in range of spawn zones
+SC_randomSpawnNearSpawns		= true;					// true if you want to allow random spawns in range of spawn zones
 SC_randomSpawnTargetBambis		= false;					// true if you want to allow random spawns to target bambis
 SC_randomSpawnAnnounce			= true;						// true if you want a warning toast issued to all players when AI spawns
 SC_randomSpawnNameTarget		= true;					// true if you want to name the targeted player
@@ -257,7 +257,7 @@ SC_maximumCrewAmount        	= 15;     	// Maximum amount of AI allowed in a veh
 SC_maxNumberofVehicles 	    	= 5;		// How many roaming vehicles to spawn	
 SC_occupyLandVehicleIgnoreCount		= true;	// true if you want spawn vehicles regardless of overall AI count
 SC_occupyVehiclesLocked			= false;	// true if AI vehicles to stay locked until all the linked AI are dead		
-SC_occupyVehicleSurvivors		= true;	// true if you want a chance to spawn survivor AI as well as bandits (SC_occupyVehicle must be true to use this option)
+SC_occupyVehicleSurvivors		= false;	// true if you want a chance to spawn survivor AI as well as bandits (SC_occupyVehicle must be true to use this option)
 
 SC_occupyVehicleUseFixedPos		= false;		// True if you want to specify the patrol positions and radius of the area to patrol / false for random
 
@@ -297,7 +297,7 @@ SC_SurvivorVehicleClassToUseRare		=   [
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////								
 																					
 // Settings for roaming airborne AI (non armed helis will just fly around)
-SC_maxNumberofHelis		    	= 3;
+SC_maxNumberofHelis		    	= 5;
 SC_occupySkyVehicleIgnoreCount		= false;	// true if you want spawn vehicles regardless of overall AI count
 
 // Array of aircraft which can be used by AI patrols (the number next to next vehicle is the maximum amount of that class allowed, 0 for no limit)
@@ -324,7 +324,7 @@ SC_occupyHeliFixedPositions		= [
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Settings for roaming seaborne AI (non armed boats will just sail around)
-SC_maxNumberofBoats		    = 1;
+SC_maxNumberofBoats		    = 6;
 SC_occupySeaVehicleIgnoreCount		= false;	// true if you want spawn vehicles regardless of overall AI count
 
 // Array of boats which can be used by AI patrols (the number next to next vehicle is the maximum amount of that class allowed, 0 for no limit)
@@ -385,7 +385,7 @@ SC_SurvivorLastNames    		= ["Smith","Jones","Davids","Johnson","Jobs","Andrews"
 SC_BanditFirstNames     		= ["Alex","Nikita","George","Daniel","Adam","Alexander","Sasha","Sergey","Dmitry","Anton","Jakub","Vlad","Maxim","Oleg","Denis","Wojtek"]; 
 SC_BanditLastNames      		= ["Dimitrov","Petrov","Horvat","Novak","Dvorak","Vesely","Horak","Hansen","Larsen","Tamm","Ivanov","Pavlov","Virtanen"];
 		
-SC_SurvivorsChance          	= 20;						// chance in % to spawn survivors instead of bandits (for places and land vehicles)
+SC_SurvivorsChance          	= 15;						// chance in % to spawn survivors instead of bandits (for places and land vehicles)
 
 
 SC_SurvivorsFriendly        	= true;                 	// true if you want survivors to be friendly to players (until they are attacked by players)
@@ -453,7 +453,7 @@ if (worldName == 'Chernarus' AND SC_useMapOverrides) then
 
 if (worldName == 'Tanoa' AND SC_useMapOverrides) then 
 { 
-    SC_maxAIcount				= 80;
+    SC_maxAIcount				= 120;
 	SC_useApexClasses       	= true;
 	
 };

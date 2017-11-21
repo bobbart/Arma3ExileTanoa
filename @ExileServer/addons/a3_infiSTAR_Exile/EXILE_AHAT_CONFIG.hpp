@@ -413,17 +413,17 @@ class infiSTAR_RESTART_SYSTEM {
 		Locks the server when it starts, adds an eventhandler that kciks all players "on join" until the mpmission is initiated.
 		That was the server can start up more properly and "build" all bases before the first players get in..
 	*/
-	LOCK_ON_RESTART = "false";
+	LOCK_ON_RESTART = "true";
 
 	/*
 		I would recommend to use USE_RESTART_TIME_IN_M = "true"; instead of USE_RESTART_FIXED_TIME_ARRAY
 	*/
-	USE_RESTART_TIME_IN_M = "true";
+	USE_RESTART_TIME_IN_M = "false";
 
 	/*
 		Restart time in minutes (default: 180min == 3 hours)
 	*/
-	RESTART_TIME_IN_M = 180;
+	RESTART_TIME_IN_M = 240;
 
 	/*
 		diag_tickTime (starts with arma3server.exe), time (starts with mpmission init)
@@ -432,33 +432,33 @@ class infiSTAR_RESTART_SYSTEM {
 
 	USE_RESTART_FIXED_TIME_ARRAY = "false";
 	RESTART_TIMES[] = {	/* {hour,minute} .. put in the times when your server is supposed to restart (real time). */
-		{00,00},
+		//{00,00},
 		{02,00},
-		{04,00},
-		{06,00},
+		//{04,00},
+		//{06,00},
 		{08,00},
-		{10,00},
-		{12,00},
+		//{10,00},
+		//{12,00},
 		{14,00},
-		{16,00},
-		{18,00},
-		{20,00},
-		{22,00}
+		//{16,00},
+		//{18,00},
+		{20,00}//,
+		//{22,00}
 	};
 
 	USE_SHUTDOWN = "true";
-	SERVER_END_FUNCTION = "#shutdown";	/* SERVER_END_FUNCTION -> #shutdown or #restartserver */
+	SERVER_END_FUNCTION = "#restartserver";	/* SERVER_END_FUNCTION -> #shutdown or #restartserver */
 	RESTART_WARNING_SOUND = "air_raid";	/* for example: Alarm or air_raid */
 
 	LOCK_MIN_BEFORE_SHUTDOWN = 5;				/* Locks the server x min before it gets shutdown */
-	RESTART_IN_X_ARRAY[] = {15,10,5,4,3,2,1};	/* Announce the a restart x mins before it happens (x stands for each number) */
+	RESTART_IN_X_ARRAY[] = {30,20,15,10,5,4,3,2,1};	/* Announce the a restart x mins before it happens (x stands for each number) */
 };
 
 
 
 
 /* Allow Player to vote Day/Night by typing vote day / vote night in Chat*/
-DayNightVote = "true";
+DayNightVote = "false";
 MRV = 0.3;	/* if "DayNightVote = "true";" - Minimum votes required. Percentage of players needed to pass the vote. */
 MVP = 0.51;	/* if "DayNightVote = "true";" - Minimum vote percentage. A setting that dictates the minimum vote percentage that needs to be reached for the vote to pass. */
 VCT = 900;	/* if "DayNightVote = "true";" - Time (in seconds) to wait until nex vote is possible. */
@@ -615,13 +615,13 @@ class infiSTAR_handleDamage {
 	/*
 		PvP_BlockDamage option should block damage from player vs player
 	*/
-	PvP_BlockDamage = "false";
+	PvP_BlockDamage = "true";
 
 	/*
 		PvP_useZones will load PvP_ReflectDamage and PvP_BlockDamage only if people are not within a range of the given xyz coordinates!
 		{{X,Y,Z},RADIUS}
 	*/
-	PvP_useZones = "false";
+	PvP_useZones = "true";
 	zones[] = {
 		{{0,0,0},1},
 		{{1,1,1},1},
@@ -632,7 +632,7 @@ class infiSTAR_handleDamage {
 		block damage completely if the source of the damage is NULL
 		(for example if you crash into a bush the source is NULL)
 	*/
-	BlockNullSource = "false";
+	BlockNullSource = "true";
 };
 
 
@@ -653,7 +653,7 @@ CMC = "false";		/* Check for CommandingMenus that are not in the allowedCommandi
 allowedCommandingMenus[] = {"#user:example","#user:example2"};
 
 
-task_force_radio = "false";				/* put this to "true" if you allow task force radio on your server! */
+task_force_radio = "true";				/* put this to "true" if you allow task force radio on your server! */
 reset_inGameUIEventHandler = "true";	/* reset inGameUIEventHandler */
 checkFilePatchingEnabled = "true";		/* checks if filepatching is enabled on the client (if it is, the client could inject any script based hack easily) */
 onEventsCheck = "false";				/* checks server side on Events vs Client side */
@@ -680,8 +680,8 @@ CMM = "true";
 maxMapMenuEntries = 6;	/* "Map Menu has been changed x entries found - Texts: y" incase you want to add some briefing to your map menu. Only matters if you have CMM = "true"; */
 
 /* if steam api.steampowered.com is working, this might be a nice feature */
-check_steam_ban = "false";	/* will announce and log steambanned players - using GetPlayerBans v1 */
-ban_for_steam_ban = "false";	/* if "check_steam_ban = "true";" then steambanned players will get banned from your Arma server! */
+check_steam_ban = "true";	/* will announce and log steambanned players - using GetPlayerBans v1 */
+ban_for_steam_ban = "true";	/* if "check_steam_ban = "true";" then steambanned players will get banned from your Arma server! */
 
 
 MPH = "false";			/* This set to "true" will create a log of players being hit on your server */

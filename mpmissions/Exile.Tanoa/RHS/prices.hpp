@@ -412,3 +412,25 @@
 	class rhs_l159_CDF_plamen                                     		{ quality = 1; price = 30000; sellprice = 15000; };
 	class rhs_l159_CDF                                            		{ quality = 1; price = 30000; sellprice = 15000; };
 	class rhs_l39_cdf                                             		{ quality = 1; price = 30000; sellprice = 15000; };
+	/// Added in by me
+	class RHS_AH64D_GS 						{ quality = 1; price = 250000; sellprice = 15000; };
+	class RHS_AH64D_CS 						{ quality = 1; price = 250000; sellprice = 15000; };
+	class RHS_AH64D_wd 						{ quality = 1; price = 250000; sellprice = 15000; };
+	class RHS_AH64D_AA 						{ quality = 1; price = 250000; sellprice = 15000; };
+	class RHS_AH64DGrey						{ quality = 1; price = 250000; sellprice = 15000; };
+	class RHS_AH1Z_GS 						{ quality = 1; price = 200000; sellprice = 15000; };
+	class RHS_AH1Z_CS 						{ quality = 1; price = 200000; sellprice = 15000; };
+	class RHS_AH1Z_wd						{ quality = 1; price = 200000; sellprice = 15000; };
+	class RHS_A10 							{ quality = 1; price = 300000; sellprice = 15000; };
+	class RHS_M2A3_BUSKIII 					{ quality = 1; price = 250000; sellprice = 15000; };
+	class RHS_M2A3_BUSKI_wd 				{ quality = 1; price = 250000; sellprice = 15000; };
+	class RHS_M6_wd 						{ quality = 1; price = 30000; sellprice = 15000; };
+	class RHSusf_m109d_usarmy 				{ quality = 1; price = 600000; sellprice = 15000; };
+	class RHSusf_m113d_usarmy 				{ quality = 1; price = 75000; sellprice = 15000; };	
+	class RHSusf_m113d_usarmy_supply 		{ quality = 1; price = 75000; sellprice = 15000; };	
+	class RHSusf_m113d_usarmy_unarmed 		{ quality = 1; price = 75000; sellprice = 15000; };	
+	class RHSusf_m113d_usarmy_medical 		{ quality = 1; price = 75000; sellprice = 15000; };	
+	class RHSusf_m113d_usarmy_M240 			{ quality = 1; price = 125000; sellprice = 15000; };	
+	class RHSusf_m113d_usarmy_MK19 			{ quality = 1; price = 125000; sellprice = 15000; };
+	class RHSusf_m1a1aimwd_usarmy 			{ quality = 1; price = 300000; sellprice = 15000; };
+	class RHSusf_m1a1fep_od 				{ quality = 1; price = 300000; sellprice = 15000; };

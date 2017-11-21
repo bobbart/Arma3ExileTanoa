@@ -65,3 +65,6 @@ Exile_Headgear_GasMask","",[],["","","","","",""]], [4792.94, 5130.04, 15.0269],
     _trader addEventHandler ["AnimDone", {_this call ExileClient_object_trader_event_onAnimationDone}];
 }
 forEach _npcs;
+
+// Georgetown Trader City, add to the top or bottom of this file. -Untriel
+#include "custom\untTraderCityGeorgetown_player.sqf";

@@ -1289,3 +1289,6 @@ private _simpleObjects = [
     forEach (selectionNames _simpleObject);
 }
 forEach _simpleObjects;
+
+// Georgetown Trader City, add to the top or bottom of this file. -Untriel
+#include "custom\untTraderCityGeorgetown_server.sqf";

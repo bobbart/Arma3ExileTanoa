@@ -55,7 +55,7 @@ SC_occupyHeliCrashes			= true;						// true if you want to have Dayz style helic
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 SC_fastNightsStarts         	= 18;                   	// Start fast nights at this hour (24 hour clock) eg. 18 for 6pm
-SC_fastNightsMultiplierNight	= 24;                   	// the time multiplier to use at night (12 = 12x speed)
+SC_fastNightsMultiplierNight	= 12;                   	// the time multiplier to use at night (12 = 12x speed)
 SC_fastNightsEnds           	= 6;                    	// End fast nights at this hour (24 hour clock) eg. 6 for 6am
 SC_fastNightsMultiplierDay  	= 4;                    	// the time multiplier to use during daylight hours (4 = 4x speed)
 
@@ -67,7 +67,7 @@ SC_randomSpawnMinPlayers    	= 1;                    	// Minimum number of playe
 SC_randomSpawnMaxGroups        	= 4;                    	// Maximum amount of random AI groups allowed at any time
 SC_randomSpawnMinGroupSize      = 3;                    	// Minimum amount of random AI groups allowed per group
 SC_randomSpawnMaxGroupSize      = 5;                    	// Maximum amount of random AI groups allowed per group
-SC_randomSpawnChance			= 12;						// Percentage chance of spawning if suitable player found
+SC_randomSpawnChance			= 15;						// Percentage chance of spawning if suitable player found
 SC_randomSpawnIgnoreCount		= true;						// true if you want spawn random AI groups regardless of overall AI count (they still count towards the total though)
 SC_randomSpawnFrequency			= 3600;						// time in seconds between the possibility of random AI hunting the same player (1800 for 30 minutes)
 SC_randomSpawnNearBases			= true;						// true if you want to allow random spawns in range of territories

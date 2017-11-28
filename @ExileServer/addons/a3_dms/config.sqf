@@ -13,22 +13,22 @@
 
 
 // If you don't want the AI to have marksman DLC weapons, then simply remove the line below, or comment it by putting // at the beginning of the line
-//#define GIVE_AI_MARKSMAN_DLC_WEAPONS 1
+#define GIVE_AI_MARKSMAN_DLC_WEAPONS 1
 
 // If you don't want crates to spawn with marksman DLC weapons, simply remove the line below or comment it out.
-//#define USE_MARKSMAN_DLC_WEAPONS_IN_CRATES 1
+#define USE_MARKSMAN_DLC_WEAPONS_IN_CRATES 1
 
 // Uncomment this if you want Apex weapons on AI.
-//#define GIVE_AI_APEX_WEAPONS 1
+#define GIVE_AI_APEX_WEAPONS 1
 
 // Uncomment this if you want Apex gear on AI. Uniforms, Vests, Backpacks, Helmets,Scopes
-//#define GIVE_AI_APEX_GEAR 1
+#define GIVE_AI_APEX_GEAR 1
 
 // Uncomment this if you want Apex weapons in loot crates
-//#define USE_APEX_WEAPONS_IN_CRATES 1
+#define USE_APEX_WEAPONS_IN_CRATES 1
 
 // Uncomment this if you want Apex vehicles to spawn for AI/missions
-//#define USE_APEX_VEHICLES 1
+#define USE_APEX_VEHICLES 1
 
 
 
@@ -350,33 +350,33 @@ DMS_SpawnMissions_Scheduled = false;	// Whether or not to spawn missions in a sc
 	DMS_GiveRespectToPlayer_OnAIKill	= true;						// Whether or not to give respect to players when they kill AI.
 
 	DMS_Bandit_Soldier_MoneyGain		= 50;						// The amount of Poptabs gained for killing a bandit soldier
-	DMS_Bandit_Soldier_RepGain			= 10;						// The amount of Respect gained for killing a bandit soldier
+	DMS_Bandit_Soldier_RepGain			= 50;						// The amount of Respect gained for killing a bandit soldier
 	DMS_Bandit_Soldier_RankGain			= 15;
 	DMS_Bandit_Soldier_SpawnMoney		= 50;						// The amount of Poptabs carried by a bandit soldier
 
 	DMS_Bandit_Static_MoneyGain			= 75;						// The amount of Poptabs gained for killing a bandit static gunner
-	DMS_Bandit_Static_RepGain			= 15;						// The amount of Respect gained for killing a bandit static gunner
+	DMS_Bandit_Static_RepGain			= 75;						// The amount of Respect gained for killing a bandit static gunner
 	DMS_Bandit_Static_RankGain			= 30;
 	DMS_Bandit_Static_SpawnMoney		= 75;						// The amount of Poptabs carried by a bandit static gunner
 
 	DMS_Bandit_Vehicle_MoneyGain		= 100;						// The amount of Poptabs gained for killing a bandit vehicle crew member
-	DMS_Bandit_Vehicle_RepGain			= 25;						// The amount of Respect gained for killing a bandit vehicle crew member
+	DMS_Bandit_Vehicle_RepGain			= 100;						// The amount of Respect gained for killing a bandit vehicle crew member
 	DMS_Bandit_Vehicle_RankGain			= 50;
 	DMS_Bandit_Vehicle_SpawnMoney		= 100;						// The amount of Poptabs carried by a bandit vehicle crew member
 
 /* DonkeyPunchDMS Custom Settings for Hero AI*/
 	DMS_Hero_Soldier_MoneyGain			= 100;						// The amount of Poptabs gained for killing a hero soldier
-	DMS_Hero_Soldier_RepGain			= 20;						// The amount of Respect gained for killing a hero soldier
+	DMS_Hero_Soldier_RepGain			= 100;						// The amount of Respect gained for killing a hero soldier
 	DMS_Hero_Soldier_RankGain			= -30;
 	DMS_Hero_Soldier_SpawnMoney			= 100;						// The amount of Poptabs carried by a hero soldier
 
 	DMS_Hero_Static_MoneyGain			= 120;						// The amount of Poptabs gained for killing a hero static gunner
-	DMS_Hero_Static_RepGain				= 30;						// The amount of Respect gained for killing a hero static gunner
+	DMS_Hero_Static_RepGain				= 120;						// The amount of Respect gained for killing a hero static gunner
 	DMS_Hero_Static_RankGain			= -60;
 	DMS_Hero_Static_SpawnMoney			= 120;						// The amount of Poptabs carried by a hero static gunner
 
 	DMS_Hero_Vehicle_MoneyGain			= 200;						// The amount of Poptabs gained for killing a hero vehicle crew member
-	DMS_Hero_Vehicle_RepGain			= 50;						// The amount of Respect gained for killing a hero vehicle crew member
+	DMS_Hero_Vehicle_RepGain			= 200;						// The amount of Respect gained for killing a hero vehicle crew member
 	DMS_Hero_Vehicle_RankGain			= -100;
 	DMS_Hero_Vehicle_SpawnMoney			= 200;						// The amount of Poptabs carried by a hero vehicle crew member
 /* DonkeyPunchDMS Custom Settings for Survivor AI*/
@@ -488,10 +488,10 @@ DMS_SpawnMissions_Scheduled = false;	// Whether or not to spawn missions in a sc
 	DMS_AI_WP_Radius_base				= 5;						// Waypoint radius for AI in bases.
 	DMS_AI_WP_Radius_heli				= 500;						// Waypoint radius for AI in helis.
 
-	DMS_AI_destroyVehicleChance			= 50;						// Percent chance that an AI vehicle will be destroyed after the AI have been killed. Set to 100 for always, or 0 for never.
+	DMS_AI_destroyVehicleChance			= 15;						// Percent chance that an AI vehicle will be destroyed after the AI have been killed. Set to 100 for always, or 0 for never.
 
 	DMS_AI_destroyStaticWeapon			= true;						// Whether or not to destroy static HMGs after AI death.
-	DMS_AI_destroyStaticWeapon_chance	= 55;						// Percent chance that a static weapon will be destroyed (only applied if "DMS_AI_destroyStaticWeapon" is true)
+	DMS_AI_destroyStaticWeapon_chance	= 45;						// Percent chance that a static weapon will be destroyed (only applied if "DMS_AI_destroyStaticWeapon" is true)
 
 	DMS_static_weapons =				[							// Static weapons for AI
 											"O_HMG_01_high_F"

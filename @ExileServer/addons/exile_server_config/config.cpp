@@ -4120,14 +4120,14 @@ class CfgSettings
 			// Dropped items without fissix
 			class GroundWeaponHolder
 			{
-				lifeTime = 10;
+				lifeTime = 20;
 				interval = 5;
 			};
 
 			// Dropped items with fissix
 			class WeaponHolderSimulated
 			{
-				lifeTime = 10;
+				lifeTime = 20;
 				interval = 5;
 			};
 
@@ -4141,7 +4141,7 @@ class CfgSettings
 			// Loot spawned inside a building
 			class Loot 
 			{
-				lifeTime = 8;
+				lifeTime = 10;
 				interval = 1;
 			};
 
@@ -4192,7 +4192,7 @@ class CfgSettings
 		*
 		* Default: Get 1 respect for every 10 pop tabs 
 		*/
-		tradingRespectFactor = 0.1;
+		tradingRespectFactor = 0.2;
 		
 		/**
 		* Defines the the minimum amount of Respect earned/lost for a kill
@@ -4477,7 +4477,7 @@ class CfgSettings
 			weather type of be more dominant compared to others, add it multiple times
 		*/
 		//keyframes[] = {"Sunny", "Cloudy", "Thunderstorm"}; 
-		keyframes[] = {"Sunny"}; 
+		keyframes[] = {"Sunny", "Thunderstorm"}; 
 
 		/*
 			This is a keyframe. Look up the BIKI to get more details about the parameters
@@ -4532,7 +4532,7 @@ class CfgSettings
 			wind = 0.25;
 			gusts = 0.5;
 			rain = 1;
-			lightnings = 1;
+			lightnings = 2;
 			rainbows = 0.5;
 		};
 	};

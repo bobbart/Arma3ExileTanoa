@@ -22,10 +22,10 @@ ExAd_VG_ALLOWED_VEH_MULTIPLE_FACTOR = 3;//SCALAR - How many extra vehicle slots 
 
 ExAd_VG_ACCESS_LEVEL = 1; 				//SCALAR - Lowest level that can access the Virtual Garage --> 1|2|3 -> Pleb|Moderator|Owner.
 
-ExAd_VG_CLEAN_ON_STORE = true;			//BOOLEAN - If vehicle inventory should reset when stored.
+ExAd_VG_CLEAN_ON_STORE = false;			//BOOLEAN - If vehicle inventory should reset when stored.
 
 ExAd_VG_SHOW_ADVHINT = false; 			//BOOLEAN - If the virtual garage should display an Advanced hint upon store and fetch.
 
-ExAd_STOP_COMBAT_STORING = true; 		//BOOLEAN - If set to true players cannot store vehicles while they are in combat. Prevents combat storing.
+ExAd_STOP_COMBAT_STORING = false; 		//BOOLEAN - If set to true players cannot store vehicles while they are in combat. Prevents combat storing.
 
 ExAd_VG_ALLOWED_VEH_TYPE = ["Car","Tank","Plane","Air","Ship","Submarine"];//ARRAY - Array with allowed vehicle types for the virtual garage. | "Car", "Tank", "Helicopter", "Plane" or "Air" for both WARNING DON'T USE "LandVehicle" Can crash the Exile system.  

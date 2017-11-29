@@ -1698,7 +1698,7 @@ class CfgExileEnvironment
 		class Radiation 
 		{
 			// 1 = enabled, 0 = disabled
-			enable = 1;
+			enable = 0;
 		};
 
 		class Temperature
@@ -1749,7 +1749,7 @@ class CfgExileEnvironment
 
 		class Radiation: Radiation
 		{
-			enable = 1;
+			enable = 0;
 			contaminatedZones[] = 
 			{
 				{{3960.14,	8454.75,	152.862}, 	80, 	140},	// Object A1
@@ -1788,7 +1788,7 @@ class CfgExileEnvironment
 
 		class Radiation: Radiation
 		{
-			enable = 1;
+			enable = 0;
 		};
 
 		class Temperature: Temperature

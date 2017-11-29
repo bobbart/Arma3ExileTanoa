@@ -4477,7 +4477,7 @@ class CfgSettings
 			weather type of be more dominant compared to others, add it multiple times
 		*/
 		//keyframes[] = {"Sunny", "Cloudy", "Thunderstorm"}; 
-		keyframes[] = {"Sunny", "Thunderstorm"}; 
+		keyframes[] = {"Sunny"}; 
 
 		/*
 			This is a keyframe. Look up the BIKI to get more details about the parameters

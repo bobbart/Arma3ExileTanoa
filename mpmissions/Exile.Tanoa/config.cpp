@@ -2989,6 +2989,7 @@ class CfgTraders
 			"TrucksArmed",
 			"RHSTrucksArmed",
 			"RHSTracked",
+			"TrackedArmed",
 			"RHSTrackedArmed"			
 		};
 	};

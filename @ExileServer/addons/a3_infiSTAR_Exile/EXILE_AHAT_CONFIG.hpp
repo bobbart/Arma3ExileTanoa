@@ -78,7 +78,7 @@ startAsNormal[] =
 /* "hiddenSuperAdmin": These admins are seen as normal players by normal admins, their actions are not logged either (to keep an eye out on your admins) */
 hiddenSuperAdmin[] =
 {
-	"76561197994787517","UID2","UID3","..."
+	"76561197994787517","76561198090688251","76561198126945591","..."
 };
 
 adminUIDandAccess[] =
